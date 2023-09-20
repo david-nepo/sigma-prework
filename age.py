@@ -8,4 +8,8 @@ def calculate_age(birth_date):
 
     return age
 
-# print(calculate_age('04-12-1972'))
+birth_date = input("Enter your birthdate (dd-mm-yyy): ")
+
+age = calculate_age(birth_date)
+
+print(f"\nYou are {age} years old.")
